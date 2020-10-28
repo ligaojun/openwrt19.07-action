@@ -12,7 +12,6 @@ sed -i '/<div class="tr"><div class="td left" width="33%"><%:Kernel Version%></d
 rm -rf k3screenctrl package/lean
 #添加额外软件包
 git clone https://github.com/jefferymvp/luci-app-koolproxyR package/luci-app-koolproxyR
-git clone https://github.com/yangsongli/luci-theme-atmaterial.git package/luci-theme-atmaterial
 git clone https://github.com/lwz322/luci-app-k3screenctrl.git package/k3/luci-app-k3screenctrl
 git clone https://github.com/lwz322/k3screenctrl.git package/k3/k3screenctrl
 git clone https://github.com/lwz322/k3screenctrl_build.git package/k3/k3screenctrl_build
