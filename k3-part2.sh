@@ -19,3 +19,4 @@ git clone https://github.com/lwz322/k3screenctrl_build.git package/k3/k3screenct
 git clone https://github.com/xiaorouji/openwrt-passwall.git
 git clone https://github.com/kenzok8/openwrt-packages.git
 git clone https://github.com/destan19/OpenAppFilter.git
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
