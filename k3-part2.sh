@@ -13,9 +13,9 @@ rm -rf k3screenctrl package/lean
 rm -rf luci-theme-argon package/lean
 
 #添加额外软件包
-git clone https://github.com/lwz322/luci-app-k3screenctrl.git package/k3/luci-app-k3screenctrl
-git clone https://github.com/lwz322/k3screenctrl.git package/k3/k3screenctrl
-git clone https://github.com/lwz322/k3screenctrl_build.git package/k3/k3screenctrl_build
+git clone https://github.com/lwz322/luci-app-k3screenctrl.git package
+git clone https://github.com/lwz322/k3screenctrl.git package
+git clone https://github.com/lwz322/k3screenctrl_build.git package
 git clone https://github.com/xiaorouji/openwrt-passwall.git package
 git clone https://github.com/kenzok8/openwrt-packages.git package
 git clone https://github.com/destan19/OpenAppFilter.git package
