@@ -12,7 +12,7 @@ sed -i 's/192.168.1.1/10.10.10.1/g' package/base-files/files/bin/config_generate
 rm -rf luci-theme-argon package/lean
 
 #添加额外软件包
-git clone https://github.com/xiaorouji/openwrt-passwall.git
-git clone https://github.com/kenzok8/openwrt-packages.git
-git clone https://github.com/destan19/OpenAppFilter.git
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
+git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
